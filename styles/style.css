@@ -1,0 +1,64 @@
+html {
+	font-size: 10px;
+	font-family: 'Karma', serif;
+	background-color: #ADD3E0;
+}
+
+body {
+	width: 640px;
+	margin: 0 auto;
+		/*two values stand for top/bottom:'0' and left/right:'auto'
+		*/
+	background-color: #FFFFFF;
+	padding: 0 20px 20px 20px;
+		/*here is each side: top,right,bottom,left set particular*/
+	border: 3px solid black;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+
+	margin: 0;
+	padding: 20px 0;
+	color: #481818;
+	text-shadow: 3px 3px 5px #915959;
+}
+
+p, li {
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px 2px gray;
+}
+
+img {
+	display: block;
+	/*images are inline elements, which can't get spacing values(e.g. margin)
+	* applied to them. To still do that you need them to behave like a block.
+	* the <body> element is block level by default.
+	*/
+	margin: 0 auto;
+}
+
+/*
+p {
+	color: purple;
+	width: 500px;
+	border: 1px solid purple;
+}
+
+ul, ol {
+	color: red;
+}
+
+p[class] {
+	color: black;
+	width: 640px;
+	border: none;
+}
+
+a:hover {
+	color: blue;
+}
+*/
