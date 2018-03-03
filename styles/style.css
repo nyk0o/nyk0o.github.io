@@ -32,7 +32,6 @@ p, li {
 	font-size: 16px;
 	line-height: 2;
 	letter-spacing: 1px;
-	text-shadow: 2px 2px 2px gray;
 }
 
 img {
@@ -42,6 +41,16 @@ img {
 	* the <body> element is block level by default.
 	*/
 	margin: 0 auto;
+}
+p[class] {
+	text-align:right;
+	/*not working. maybe over creating like a table with two columns each with
+	different text-alignment*/
+}
+
+a:hover {
+	color: blue;
+	font-size: 17px
 }
 
 /*
@@ -61,7 +70,4 @@ p[class] {
 	border: none;
 }
 
-a:hover {
-	color: blue;
-}
 */
